@@ -167,7 +167,7 @@ void GeometricSurfaceFaceDS::compute_genus()
                 tmp_vertices.push_back(faces_f2f[0].f0);
                 tmp_vertices.push_back(faces_f2f[0].f1);
                 tmp_vertices.push_back(faces_f2f[0].f2);
-                tmp = tmp_vertices;
+//                tmp = tmp_vertices;
             }
             else if(f!=0)
             {   bool face_add = false;
